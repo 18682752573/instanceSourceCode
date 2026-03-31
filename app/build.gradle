@@ -1,13 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 34
+    namespace 'com.snailws.taskscompleted'
 
     defaultConfig {
         applicationId "com.snailws.taskscompleted"
-        minSdkVersion 8
-        targetSdkVersion 17
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {
@@ -19,5 +21,4 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
 }
